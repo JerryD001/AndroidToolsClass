@@ -5,8 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.jerry.androidtoolsclass.tools.NetUtils_Simple;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -17,12 +15,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void testMethod() {
-        findViewById(R.id.id_btn).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                NetUtils_Simple.openNetSetting(MainActivity.this);
-            }
-        });
 
 
     }
