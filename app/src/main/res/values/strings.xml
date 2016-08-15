@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">工具类集合</string>
+    <string name="tools">工具类</string>
+    <string name="title_activity_log_utils">LogUtils</string>
+</resources>
