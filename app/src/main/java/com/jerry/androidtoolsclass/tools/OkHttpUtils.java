@@ -24,8 +24,8 @@ import java.util.Map;
 public class OkHttpUtils {
 
     private static String FILE_PREFIX = "ZERO";
-    private OkHttpClient client;//OkHttp对象实例
     private static OkHttpUtils okHttpUtils;
+    private OkHttpClient client;//OkHttp对象实例
     private Handler mHandler;
 
     /**

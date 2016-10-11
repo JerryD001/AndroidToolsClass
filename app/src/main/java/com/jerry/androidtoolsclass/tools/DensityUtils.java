@@ -5,7 +5,7 @@ import android.util.TypedValue;
 
 /**
  * 常用单位转换的辅助类
- * <p/>
+ * <p>
  * Created by Jerry_D001 on 2016/8/8.
  */
 public class DensityUtils {
@@ -27,18 +27,6 @@ public class DensityUtils {
     }
 
     /**
-     * sp转px
-     *
-     * @param context
-     * @param spVal
-     * @return
-     */
-    public static int sp2px(Context context, float spVal) {
-        return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP,
-                spVal, context.getResources().getDisplayMetrics());
-    }
-
-    /**
      * px转dp
      *
      * @param context
@@ -48,6 +36,18 @@ public class DensityUtils {
     public static float px2dp(Context context, float pxVal) {
         final float scale = context.getResources().getDisplayMetrics().density;
         return (pxVal / scale);
+    }
+
+    /**
+     * sp转px
+     *
+     * @param context
+     * @param spVal
+     * @return
+     */
+    public static int sp2px(Context context, float spVal) {
+        return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP,
+                spVal, context.getResources().getDisplayMetrics());
     }
 
     /**

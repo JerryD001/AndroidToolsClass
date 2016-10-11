@@ -4,7 +4,7 @@ import android.util.Log;
 
 /**
  * 日志管理类
- * <p/>
+ * <p>
  * Created by Jerry_D001 on 2016/8/8.
  */
 public class LogUtils {
@@ -18,7 +18,7 @@ public class LogUtils {
 
     private static final String TAG = "----------------";//默认的TAG
 
-    // 下面四个是默认tag的函数
+    //********************* 下面四个是默认tag的函数 *********************
     public static void i(String msg) {
         if (isDebug)
             Log.i(TAG, msg);
@@ -39,7 +39,7 @@ public class LogUtils {
             Log.v(TAG, msg);
     }
 
-    // 下面是传入自定义tag的函数
+    //********************* 下面是传入自定义tag的函数 *********************
     public static void i(String tag, String msg) {
         if (isDebug)
             Log.i(tag, msg);
