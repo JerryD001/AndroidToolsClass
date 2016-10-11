@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 /**
  * Created by Jerry on 2016/10/11.
  */
-public class PwdCheckUtil {
+public class PwdCheckUtils {
     /**
      * 规则1：至少包含大小写字母及数字中的一种
      * 是否包含
