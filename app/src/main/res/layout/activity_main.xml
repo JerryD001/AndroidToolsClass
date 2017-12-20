@@ -37,11 +37,4 @@
         android:layout_below="@id/id_ed2"
         android:hint="按钮" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:onClick="toToastActivity"
-        android:text="跳转到ToastActivity"
-        android:textAllCaps="false" />
 </RelativeLayout>
